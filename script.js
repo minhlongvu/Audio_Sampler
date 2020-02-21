@@ -58,11 +58,6 @@ function setup() {
   slider_scream = createSlider();
   slider_scream.position(19, 293);
 
-
-
-
-
-
 }
 
 function draw() {
@@ -73,7 +68,5 @@ function draw() {
   pitchShift_clock.pitch = slider_clock.value(-7, 7, 1, 0.5);
   pitchShift_beep.pitch = slider_beep.value(-7, 7, 1, 0.5);
   pitchShift_scream.pitch = slider_scream.value(-7, 7, 1, 0.5);
-
-
 
 }
